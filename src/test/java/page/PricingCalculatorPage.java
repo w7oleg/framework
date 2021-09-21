@@ -19,19 +19,19 @@ public class PricingCalculatorPage extends AbstractPage{
     private WebElement tabComputerEngine;
 
 
-    @FindBy(id = "input_70")//68
+    @FindBy(id = "input_71")//68
     private WebElement inputNumberInstances;
 
-    @FindBy(id = "select_value_label_63")//61
+    @FindBy(id = "select_value_label_64")//61
     private WebElement locatorOperatingSystem;
 
-    @FindBy(id = "select_value_label_64")
+    @FindBy(id = "select_value_label_65")
     private WebElement locatorMachineClass;
 
-    @FindBy(id = "select_value_label_66")
+    @FindBy(id = "select_value_label_67")
     private WebElement locatorSeries;
 
-    @FindBy(id = "select_value_label_67")
+    @FindBy(id = "select_value_label_68")
     private WebElement locatorMachineType;
 
     @FindBy(xpath = "//h2[contains(text(),'Instances')]/..//md-checkbox[@aria-label='Add GPUs']")
@@ -48,13 +48,11 @@ public class PricingCalculatorPage extends AbstractPage{
     @FindBy(xpath = "//md-select[@placeholder='Local SSD']")
     private WebElement locatorLocalSSD;
 
-    @FindBy(id = "select_value_label_68")
+    @FindBy(id = "select_value_label_69")
     private WebElement locatorDatacenter;
 
-    @FindBy(id = "select_option_219")
-    private WebElement locatorFrankfurt;
 
-    @FindBy(id = "select_value_label_69")
+    @FindBy(id = "select_value_label_70")
     private WebElement locatorCommittedUsage;
 
     @FindBy(xpath = "//h2[contains(text(),'Instances')]/..//button[@aria-label='Add to Estimate']")
