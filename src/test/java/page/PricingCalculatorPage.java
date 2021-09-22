@@ -64,7 +64,7 @@ public class PricingCalculatorPage extends AbstractPage{
     @FindBy(xpath = "//h2[@class='md-title']/b")
     private WebElement totalEstimatedCost;
 
-    @FindBy(xpath = "//button[@aria-label='Email Estimate']")
+    @FindBy(xpath = "//button[@aria-label='Email Estimat']")//внесена ошибка Email Estimate
     private WebElement buttonEmailEstimate;
 
     @FindBy(xpath = "//button[@aria-label='Send Email']")
